@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/mariuszwuteefowicz/portfolio#readme",
   "devDependencies": {
-    "parcel": "^2.9.3"
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
   }
 }
