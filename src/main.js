@@ -14,7 +14,7 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
 
         let tags = ``;
 
-        for (tag of topics) {
+        for (let tag of topics) {
             tags += `<li class="bg-gray-400/10 py-1 px-2 rounded font-bold">${tag}</li>`              
         }
 
