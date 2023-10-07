@@ -4,25 +4,28 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
+    extend: {      
+      animation: {
+        slowSpin: 'spin 16s infinite linear'
+      },
       colors: {
-      bg: '#020916',
-      accent: '#CEFF7E',
-      lightGray: '#1F2937'
-      },
+        bg: '#020916',
+        accent: {DEFAULT: '#CEFF7E', 500: '#b8f942'},
+        lightGray: '#1F2937'
+        },
       fontFamily: {
-        'dmsans': ['DM Sans', 'sans-serif']
-      },
+          'dmsans': ['DM Sans', 'sans-serif']
+        },
       maxWidth: {
-        'wtf': '82rem'
-      },
+          'wtf': '82rem'
+        },
       borderRadius: {
-        'wtf': '0.625rem',
-        'wtf-xl': '1.25rem'
-      },
+          'wtf': '0.625rem',
+          'wtf-xl': '1.25rem'
+        },
       boxShadow: {
-        'innerlight': 'inset 0 2px 0 0 rgba(255,255,255,0.15)',
-        'innerlightmini': 'inset 0 1px 0 0 rgba(255,255,255,0.15)'
+          'innerlight': 'inset 0 2px 0 0 rgba(255,255,255,0.15)',
+          'innerlightmini': 'inset 0 1px 0 0 rgba(255,255,255,0.15)'
       }
     },
   },
